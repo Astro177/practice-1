@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+    /* header area start  */
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.877)), url('../images/donation1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    margin-top: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner-title{
+    text-align: center;
+    margin-top: 155px;
+    font-size: 70px;
+    color: white;
+}
+.banner-description{
+    text-align: center;
+    line-height: 1.5;
+    padding: 35px 0;
+    font-size: 23px;
+    color: white;
+}
+.primary-button{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 25px 40px;
+    color: white;
+    background-color: #FF5959;
+    border-radius: 10px;
+    border: 0;
+    margin-bottom: 200px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.primary-button:hover{
+    background-color: rgba(209, 234, 255, 0.623);
+    color: orangered;
+}
+    /* header area end  */
+    
+    /* section-one start  */
+.donate-container{
+    margin-top: 100px;
+    text-align: center;
+}
+.donate-title{
+    font-size: 65px;
+}
+.donate-description{
+    text-align: center;
+    line-height: 1.5;
+    padding: 35px 0;
+    font-size: 25px;
+    color: #a0a0a0;
+}
+.donate-tk-container{
+    text-align: center;
+}
+.donat-amount{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.donat-amount .amount{
+    margin-top: 40px;
+    background-color: #fafafa;
+    margin: 0px 18px;
+    border-radius: 10px;
+    padding: 40px 35px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #b8b8b8;
+    text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.donat-amount .amount:hover{
+    box-shadow: 4px 4px 4px #0000004b;
+}
+.amount-2{
+    margin-top: 50px;
+    background-color: #fae9e9;
+    margin: 0px 18px;
+    border-radius: 10px;
+    padding: 40px 35px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #a0a0a0;
+    text-align: center;
+    border: 2px solid red;
+    transition: 0.5s;
+}
+.amount-2:hover{
+    box-shadow: 4px 4px 4px #0000004b;
+}
+.other{
+    text-align: center;
+    font-size: 25px;
+    color: #a0a0a0;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+hr{
+    width: 1040px;
+    margin: auto;
+    height: 1px;
+    background-color: #b8b8b8;
+    border: none;  
+}
+.primary-button{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 25px 40px;
+    color: white;
+    background-color: #FF5959;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 40px;
+}
+    /* section-one end  */
+
+    /* section area two start  */
+.section-two{
+    width: 1300px;
+    margin: auto;
+}
+.our-donate-main{
+    text-align: center;
+}
+.donate-plan{
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+.plan-description{
+    font-size: 25px;
+    color: #a0a0a0;
+}
+.family-container-main{
+    display: flex;
+}
+.family-container{
+    width: 900px;
+    background-color: #e5f0f5c5;
+    padding: 55px 20px;
+    margin: 0px 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.family-container:hover{
+    box-shadow: 4px 4px 4px #0000004b;
+}
+.family-container-2{
+    width: 900px;
+    background-color: #ffeef3;
+    padding: 55px 20px;
+    margin: 0px 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.family-container-2:hover{
+    box-shadow: 4px 4px 4px #0000004b;
+}
+.family-container-3{
+    width: 900px;
+    background-color: #feffe9c5;
+    padding: 55px 25px;
+    margin: 0px 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.family-container-3:hover{
+    box-shadow: 4px 4px 4px #0000004b;
+}
+.family-container-main #icon{
+    font-size: 70px;
+}
+.food{
+    font-size: 30px;
+    padding: 20px 0px;
+}
+.food-description{
+    font-size: 25px;
+    color: #a0a0a0;
+}
+    /* section area two end  */
+
+    /* section area three  start  */
+.section-three{
+    width: 1300px;
+    height: 500px;
+    margin: auto;
+}
+.section-thre-main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 210px;   
+}
+.thire{
+    text-align: left;
+}
+.image img{
+    width: 550px;
+    height: 500px;
+    border-radius: 10px;
+}
+.brif-title{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+}
+.lorem{
+    font-size: 25px;
+    color: #a0a0a0;
+    text-align: left;
+    padding-top: 50px;
+    margin-bottom: 15px;
+}
+    /* section area three end  */
+
+    /* section area four start  */
+.section-four{
+    width: 1300px;
+    height: 500px;
+    margin: auto;
+    margin-top: 300px;
+}
+.section-four-main{
+    display: flex;
+    justify-content: space-between;  
+}
+.four{
+    text-align: left;
+}
+.image1 img{
+    width: 550px;
+    height: 500px;
+    border-radius: 10px;
+}
+.brif-title1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+}
+.lorem{
+    font-size: 25px;
+    color: #a0a0a0;
+    text-align: left;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+    /* section area four end  */
+
+    /* section area five start  */
+.section-five{
+    margin-top: 200px;
+    text-align: center;
+}
+.five-title{
+    font-size: 70px;
+}
+.five-description{
+    font-size: 25px;
+    color: #a0a0a0;
+    padding: 50px 0px;
+}
+    /* section area five end  */
+
+    /* section area six start  */
+.email-section{
+    width: 1300px;
+    height: 150px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+input{
+    align-items: center;
+    margin-top: 56px;
+    width: 500px;
+    height: 45px;
+    padding: 2px;
+    padding-left: 20px;
+    font-size: 20px;
+    background-color: #b8b8b8;
+    border: none;
+    color: #a0a0a0;
+}
+.subscribe{
+    margin-top: 15px;
+    font-size: 20px;
+    width: 150px;
+    padding: 13px;
+    margin-right: 10px;
+    background-color: #FF5959;
+    border: none;
+}
+    /* section area five end  */
+
+    /* section area six start  */
+.section-six{
+    width: 100%;
+    height: 250px;
+    background-color: #050408;
+}
+.be-humble{
+    text-align: center;
+    margin-top: 100px;
+}
+.humble{
+    padding-top: 90px;
+    font-size: 40px;
+    font-style: italic;
+    color: red;
+}
+.gonna{
+    padding: 25px;
+    color: aquamarine;
+    font-weight: 300;
+    font-size: 20px;
+}
